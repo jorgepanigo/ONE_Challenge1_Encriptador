@@ -4,7 +4,8 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <title>Encriptador de Texto - ONE Challenge 1</title>
-     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- <link rel="stylesheet" href="css/reset.css"> -->
      <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,8 +19,9 @@
                     
                     
                     <textarea name="" class="txt_original" placeholder="Ingrese el texto aqui..." ></textarea>
-
+                    <p class="mensaje"><i class="fa-solid fa-circle-exclamation"> </i>  Solo letras minúsculas y sin acento.</p>
                     <div class="botonera">
+                         
                          <input type="button" class="btn btn-oscuro" onclick="btn_encriptar()" value="Encriptar">
                          <input type="button" class="btn btn-claro" onclick="btn_desencriptar()" value="Desencriptar">
                     </div>
