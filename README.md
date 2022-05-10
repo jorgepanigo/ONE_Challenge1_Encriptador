@@ -1,6 +1,8 @@
 # Encriptador de Texto
+![](https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png)
 ## Alura | Oracle One Education
 ### Mayo 2022
+
 
 #### El presente challenge fue realizado en el marco del Oracle One Education dictado por Alura Latam.
 
