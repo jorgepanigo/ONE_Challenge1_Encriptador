@@ -52,6 +52,8 @@ main{
      flex-direction: row;
      margin: 0 auto;
      
+    
+     
 }
 
 aside{
@@ -64,6 +66,8 @@ aside{
      height: 100%px;
      box-shadow: 0px 24px 32px -8px #00000014;
      padding: 20px;
+     align-content:space-between;
+     
      
 
 }
@@ -103,15 +107,15 @@ textarea:focus{
 
 .txt_procesado{
      font-family: Inter;
-     font-size: 12px;
+     font-size: 14px;
      font-weight: lighter;
      line-height: 24px;
      letter-spacing: 0em;
      text-align: left;
      color:#495057;
      width: 240px;
-     
-     
+     height: 100%;
+
 }
 
 
@@ -119,20 +123,21 @@ textarea:focus{
 
 input{
      display: flex;
+
 }
 
 .btn{
      display: flex;
      flex-direction: row;
-     align-items: flex-start;
      padding: 24px;
      position: static;
      height: 67px;
      left: 0px;
      top: 0px;
      border-radius: 24px; 
-     width: 100%;
+     min-width: 240px;
      vertical-align: baseline;
+     font-size: small;
 
 }
 
@@ -144,10 +149,25 @@ input{
     
 }
 
+.btn-claro:hover{  
+     background:#D8DFE8; 
+}
+
 .btn-oscuro{
     background: #0A3871;
     color: #FFFFFF;
      
+}
+
+.btn-oscuro:hover{
+    background: #356EA9;
+  
+     
+}
+
+.btn-copiar{
+     display: flex;
+     margin-top: 60px;
 }
 
 .sin_info{
@@ -157,7 +177,7 @@ input{
 }
 
 .con_info{
-    
+
 }
 
 .hidden{
