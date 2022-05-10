@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Encriptador de Texto - ONE Challenge 1</title>
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="container">
+               <header>
+                    <img class="logo" src="img/logo.png">
+               </header>
+               
+          <div class="box">
+               <main>
+                    
+                    
+                    <textarea name="" class="txt_original" placeholder="Ingrese el texto aqui..." ></textarea>
+
+                    <div class="botonera">
+                         <input type="button" class="btn btn-claro" onclick="btn_encriptar()" value="Encriptar">
+                         <input type="button" class="btn btn-oscuro" onclick="btn_desencriptar()" value="Desencriptar">
+                    </div>
+                    
+               </main>     
+          
+               <aside>
+                         <div class="sin_info ">
+                              <img src="img/munieco.png" alt="">
+                              <h3>Ningún mensaje fue encontrado</h3>
+                              <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                         </div>
+                         
+                         <div class="con_info hidden" >
+                              <textarea name="" class="txt_procesado" cols="30" rows="10"></textarea>
+                              <input type="button" class="btn btn-claro" onclick="btn_copiar()" value="Copiar">
+                         </div>
+                    
+               </aside>
+          </div>
+     </div>
+     <script type="text/javascript" src="js/scripts.js"></script>
+
+     <footer>
+          <p>&copy Copyright Jorge Panigo | Alura ONE 2022</p>
+     </footer>
+</body>
+</html>
